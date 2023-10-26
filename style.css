@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://i.postimg.cc/1tctpZwQ/download-5.jpg);
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.key {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(22, 105, 143);
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.key:hover {
+    background-color: #ddd;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0a5397;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.ast-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.shift-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+
+
+.caps-key {
+    padding: 5px; /* Adjust the size */
+    font-size: 15px; /* Adjust the font size */
+}
+.del-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.fmode-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.esc-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.prtsc-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.mute-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.sound-key {
+    padding: 7px; 
+    font-size: 13px; 
+}
+.mic-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.bright-key {
+    padding: 7px; 
+    font-size: 14px; 
+}
+.window-key {
+    padding: 10px; 
+    font-size: 14px; 
+}
+.space-key {
+    padding: 10px; 
+    font-size: 14px; 
+    width: 250px;
+}
+.ctrl-key {
+    padding: 10px; 
+    font-size: 14px; 
+}.alt-key {
+    padding: 10px; 
+    font-size: 14px; 
+}
+.fn-key {
+    padding: 10px; 
+    font-size: 14px; 
+}
